@@ -412,3 +412,19 @@ h1 + p {
 footer p {
     color: white !important;
 }
+.portfolio {
+    max-width: 1000px;
+}
+
+.portfolio a {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+.portfolio img {
+    width: 100% !important;
+    height: 220px !important;
+    object-fit: cover;
+    margin: 0;
+}
