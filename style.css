@@ -443,3 +443,17 @@ footer p {
         margin: 0 !important;
     }
 }
+@media (max-width: 600px) {
+    .portfolio a {
+        display: block !important;
+        width: 100% !important;
+        margin: 10px 0 !important;
+    }
+
+    .portfolio img {
+        display: block !important;
+        width: 100% !important;
+        height: 220px !important;
+        object-fit: cover !important;
+    }
+}
