@@ -395,3 +395,17 @@ display: inline-block;
         margin: 3px;
     }
 }
+h1 + p {
+    color: #D4AF37 !important;
+    font-size: 19px !important;
+    display: block !important;
+    visibility: visible !important;
+}
+.portfolio img {
+    width: 30% !important;
+    height: 220px !important;
+    object-fit: cover;
+    margin: 6px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px gray;
+}
