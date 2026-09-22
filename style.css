@@ -1,459 +1,367 @@
-
 body {
-background-color: #f5f5f5;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
 }
 h1 {
-    color: darkblue;
+    color: #D4AF37;
+    font-size: 48px;
     text-align: center;
 }
 p {
     color: darkgreen;
     font-size: 18px;
 }
+/* Navigation */
 nav a {
-    color: white;
-    background-color: darkblue;
-    padding: 10px;
+    display: inline-block;
+    color: rgb(77, 8, 156);
+    background: linear-gradient(135deg, #D4AF37, #8B6914);
+    padding: 10px 18px;
+    margin: 5px;
     text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
 }
-nav {
-    text-align: center;
+nav a {
+    display: inline-block;
+    color: white;
+    background-color: #D4AF37;
+    padding: 10px 18px;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+nav a:hover {
+    background-color: white;
+    color: #111111;
+    transform: translateY(-2px);
+}
+/* Hero */
+.hero {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    border-radius: 15px;
     margin-bottom: 30px;
 }
-
-nav a {
+..hero h1 {
+border-bottom: 3px solid #D4AF37;
+padding-bottom: 10px;
+display: inline-block;
+text-shadow: 0 2px 5px black;
+font-weight: bold;
+letter-spacing: 2px;
+}
+.hero p {
+color: #D4AF37;
+font-size: 22px;
+font-weight: bold;
+letter-spacing: 1px;
+}
+.hero a {
     margin: 5px;
 }
-h1 {
-font-size: 48px;
+.instagram,
+.tiktok {
+    transform: translateY(-3px);
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 3px 8px gray;
+    transition: 0.3s;
 }
-body {
-    text-align: center;
+.instagram {
+    background-color: #E1306C;
+    color: white;
 }
-body {
-    font-family: Arial, sans-serif;
-}h2 {
-    color: darkblue;
-    font-size: 30px;
+.tiktok {
+    background-color: black;
+    color: white;
 }
-li {
-    font-size: 18px;
-    margin: 10px;
-}
-img {
-    border-radius: 15px;
-}
-img {
-    box-shadow: 0 4px 10px gray;
-}
+/* General images */
 img {
     max-width: 100%;
     height: auto;
-}
-body {
-    padding: 20px;
-}.services {
-    background-color: white;
-    padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px gray;
-    max-width: 500px;
-    margin: 20px auto;
 }
+/* About */
+.about {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 10px gray;
+}
+.about h2 {
+color: rgb(0, 2, 138);
+font-size: 32px;
+margin-bottom: 20px;
+border-bottom: 2px solid #D4AF37;
+padding-bottom: 10px;
+display: inline-block;
+}
+.about p {
+    color: black;
+    line-height: 1.6;
+}
+/* Services */
 .services {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px gray;
+    max-width: 600px;
+    margin: 20px auto;
     list-style: none;
 }
 .services li {
     font-weight: bold;
     margin: 15px 0;
-}h2 {
-    margin-top: 30px;
-    margin-bottom: 15px;
+    color: darkblue;
 }
-a[href^="tel"] {
-    display: inline-block;
-    background-color: darkblue;
-    color: white;
-    padding: 12px 25px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-}a[href^="https://wa.me"] {
-    display: inline-block;
-    background-color: green;
-    color: white;
-    padding: 12px 25px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-}footer {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: darkblue;
-    color: white;
+/* Portfolio */
+.portfolio {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 10px gray;
     text-align: center;
-}
-a:hover {
-    opacity: 0.7;
-}
-nav a:hover {
-    background-color: black;
-}
-nav {
-    background-color: white;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
-.instagram {
-    display: inline-block;
-    background-color: #E1306C !important;
-    color: white !important;
-    padding: 12px 25px !important;
-    border-radius: 8px !important;
-    text-decoration: none !important;
-    font-weight: bold;
-}
-.instagram:hover {
-    opacity: 0.7;
-}h1 + p {
-    font-size: 22px;
-    color: darkblue;
-    font-style: italic;
-    margin-bottom: 30px;
-.hero {
-background-color: #111111;
-padding: 40px 20px;
-border-radius: 15px;
-margin-bottom: 30px;
-}
-}.tiktok {
-    display: inline-block;
-    background-color: black;
-    color: white;
-    padding: 12px 25px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 5px;
-}
-.hero a {
-    margin: 5px;
-}.about {
-    background-color: white;
-    padding: 30px;
-    border-radius: 15px;
-    margin: 30px auto;
-    max-width: 700px;
-    box-shadow: 0 4px 10px gray;
-}
-
-.about p {
-    color: black;
-    line-height: 1.6;
-}
-img {
-    transition: transform 0.3s;
-}
-img:hover {
-    transform: scale(1.03);
-}
-.portfolio {
-    background-color: white;
-    padding: 30px;
-    border-radius: 15px;
-    margin: 30px auto;
-    max-width: 700px;
-    box-shadow: 0 4px 10px gray;
-}
-
-.portfolio img {
-width: 20% !important;
-height: 180px !important;
-margin: 6px;
-border-radius: 10px;
-object-fit: cover;
-}
-
-.portfolio img:hover {
-    transform: scale(1.05);
-}.portfolio img {
-    height: 180px;
-    object-fit: cover;
-}
-.portfolio h3 {
-    color: darkblue;
-    font-size: 24px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-a[href^="mailto"] {
-display: inline-block;
-background-color: darkblue;
-color: white;
-padding: 12px 25px;
-border-radius: 8px;
-text-decoration: none;
-font-weight: bold;
-margin: 5px;
-}
-.hero h1 {
-font-size: 48px;
-margin-bottom: 10px;
-}
-
-.hero p {
-font-size: 22px;
-}
-.portfolio {
-text-align: center;
-}
-
-.portfolio a {
-display: inline-block;
-}
-.portfolio img {
-margin: 4px;
-}
-nav {
-position: sticky;
-top: 0;
-z-index: 1000;
-}
-a[href^="tel"],
-a[href^="https://wa.me"] {
-display: inline-block;
-padding: 12px 25px;
-border-radius: 8px;
-text-decoration: none;
-font-weight: bold;
-margin: 5px;
-}
-a[href^="https://wa.me"] {
-background-color: green;
-color: white;
-}
-a[href^="tel"] {
-background-color: darkblue;
-color: white;
-}
-a[href^="mailto"] {
-background-color: #D4AF37;
-color: white;
-}
-nav a {
-font-weight: bold;
-border-radius: 6px;
-}
-h1 {
-color: #D4AF37;
-text-align: center;
-}
-.hero h1 {
-border-bottom: 3px solid #D4AF37;
-padding-bottom: 10px;
-display: inline-block;
-}
-.hero p {
-color: white;
-}
-.hero h1 {
-text-shadow: 0 2px 5px black;
-}
-.instagram {
-box-shadow: 0 3px 8px gray;
-}
-.tiktok {
-box-shadow: 0 3px 8px gray;
-}
-.about h2 {
-font-size: 32px;
-margin-bottom: 20px;
-}
-.services li {
-color: darkblue;
-}
-.services {
-padding: 25px;
-}
-.services {
-max-width: 600px;
 }
 .portfolio h2 {
 font-size: 34px;
 color: #D4AF37;
+border-bottom: 2px solid #D4AF37;
+padding-bottom: 10px;
 }
 .portfolio h3 {
-font-weight: bold;
-}
-.portfolio h3 {
-padding-top: 20px;
+    color: darkblue;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 .portfolio p {
-color: #555;
-font-size: 16px;
-line-height: 1.5;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
 }
-.portfolio img {
-box-shadow: 0 3px 8px gray;
-}
-.contact {
-background-color: white;
-padding: 30px;
-border-radius: 15px;
-margin: 30px auto;
-max-width: 700px;
-box-shadow: 0 4px 10px gray;
-}
-.contact h2 {
-color: #D4AF37;
-font-size: 34px;
-}
-.contact p {
-font-size: 18px;
-margin: 15px 0;
-}
-.contact a[href^="mailto"] {
-background-color: #D4AF37;
-color: white;
-padding: 12px 25px;
-border-radius: 8px;
-text-decoration: none;
-font-weight: bold;
-display: inline-block;
-}
-@media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 36px;
-    }
-
-    nav a {
-        display: inline-block;
-        margin: 4px;
-        padding: 8px 12px;
-    }
-
-    .hero {
-        padding: 30px 15px;
-    }
-
-    .about,
-    .portfolio,
-    .contact {
-        padding: 20px 15px;
-    }
-
-    .portfolio img {
-        width: 45% !important;
-        height: 150px !important;
-        margin: 3px;
-    }
-}
-@media (max-width: 600px) {
-    body {
-        padding: 8px;
-    }
-
-    h1 {
-        font-size: 36px;
-    }
-
-    h1 + p {
-        font-size: 19px;
-        color: white;
-        display: block;
-        visibility: visible;
-        margin-bottom: 20px;
-    }
-
-    nav {
-        padding: 8px 4px;
-    }
-
-    nav a {
-        font-size: 14px;
-        padding: 8px 10px;
-        margin: 3px;
-    }
-
-    .hero {
-        padding: 30px 10px;
-    }
-
-    .about,
-    .portfolio,
-    .contact {
-        padding: 20px 10px;
-    }
-
-    .portfolio img {
-        width: 46% !important;
-        height: 190px !important;
-        margin: 3px;
-    }
-}
-h1 + p {
-    color: #D4AF37 !important;
-    font-size: 19px !important;
-    display: block !important;
-    visibility: visible !important;
-}
-.portfolio img {
-    width: 80% !important;
-    height: 200px !important;
-    object-fit: cover;
-    margin: 6px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px gray;
-}
-footer p {
-    color: white !important;
-}
-.portfolio {
-    max-width: 1000px;
-}
-
 .portfolio a {
     display: inline-block;
     width: 30%;
     margin: 1%;
 }
-
 .portfolio img {
-    width: 100% !important;
-    height: 220px !important;
+    display: block;
+    width: 100%;
+    height: 220px;
     object-fit: cover;
     margin: 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px gray;
+    transition: transform 0.3s;
 }
+.portfolio img:hover {
+    transform: scale(1.05);
+}
+/* Contact */
+.contact {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 10px gray;
+}
+.contact h2 {
+color: #D4AF37;
+font-size: 34px;
+border-bottom: 2px solid #D4AF37;
+padding-bottom: 10px;
+display: inline-block;
+}
+.contact p {
+font-size: 18px;
+margin: 15px 0;
+line-height: 1.6;
+}
+.contact a {
+display: inline-block;
+padding: 12px 25px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+margin: 5px;
+box-shadow: 0 3px 8px gray;
+}
+.contact p a {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    background: none;
+    color: #222;
+}
+.contact a[href^="tel"] {
+    background: linear-gradient(135deg, #D4AF37, #8B6914);
+    color: white;
+    padding: 13px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px gray;
+    transition: 0.3s;
+}
+.contact a[href^="tel"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px gray;
+}
+.contact a[href^="https://wa.me"] {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
+    padding: 13px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px gray;
+    transition: 0.3s;
+}
+.contact a[href^="https://wa.me"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px gray;
+}
+.contact a[href^="mailto"] {
+    background-color: #020083;
+    color: white;
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 25px 20px;
+    background-color: rgb(253, 253, 255);
+    color: white;
+    text-align: center;
+}
+footer p {
+    footer p {
+    color: rgb(255, 255, 255);
+}
+}
+/* Mobile */
 @media (max-width: 600px) {
-    .portfolio a {
+    body {
+        padding: 8px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    nav {
+        padding: 8px 4px;
+    }
+    nav a {
         display: inline-block;
-        width: 46% !important;
-        margin: 1% !important;
+        font-size: 14px;
+        padding: 8px 10px;
+        margin: 3px;
     }
-
-    .portfolio img {
-        width: 100% !important;
-        height: 180px !important;
-        object-fit: cover !important;
-        margin: 0 !important;
+    .hero {
+        padding: 30px 10px;
     }
-}
-@media (max-width: 600px) {
+    .hero p {
+        font-size: 19px;
+    }
+    .about,
+    .portfolio,
+    .contact {
+        padding: 20px 10px;
+    }
     .portfolio a {
-        display: block !important;
-        width: 100% !important;
-        margin: 10px 0 !important;
+        display: block;
+        width: 100%;
+        margin: 10px 0;
     }
-
     .portfolio img {
-        display: block !important;
-        width: 100% !important;
-        height: 220px !important;
-        object-fit: cover !important;
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
     }
+    .services-title {
+    color: #D4AF37;
+    font-size: 34px;
+    border-bottom: 2px solid #D4AF37;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.booking {
+    .booking button:hover 
+    background: #8B6914;
+    transform: translateY(-2px);
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 10px gray;
+}
+.booking h2 {
+    color: #D4AF37;
+    font-size: 34px;
+    border-bottom: 2px solid #D4AF37;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.booking form {
+    margin-top: 20px;
+}
+.booking label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.booking input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.booking select,
+.booking textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.booking button {
+    background: #D4AF37;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 3px 8px gray;
+}
+.deposit-note {
+    background: #f7f1df;
+    padding: 15px;
+    border-left: 4px solid #D4AF37;
+    color: #222;
+    text-align: left;
+    border-radius: 6px;
+    margin-bottom: 20px;
 }
