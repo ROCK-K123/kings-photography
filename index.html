@@ -264,6 +264,16 @@ document.getElementById("bookingForm").addEventListener("submit", function(event
 });
 </script>
 </body>
+   <script>
+document.querySelectorAll("img, a").forEach((item) => {
+    const attribute = item.tagName === "IMG" ? "src" : "href";
+    const path = item.getAttribute(attribute);
+
+    if (path && /^images\/\d+\.jpg$/.test(path)) {
+        item.setAttribute(attribute, path.replace("images/", ""));
+    }
+});
+</script>
 <footer>
     <p>© 2026 Kings Photography. All Rights Reserved.</p>
 </footer>>
