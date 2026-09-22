@@ -321,3 +321,34 @@ text-decoration: none;
 font-weight: bold;
 display: inline-block;
 }
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 4px;
+        padding: 8px 12px;
+    }
+
+    .hero {
+        padding: 30px 15px;
+    }
+
+    .about,
+    .portfolio,
+    .contact {
+        padding: 20px 15px;
+    }
+
+    .portfolio img {
+        width: 45% !important;
+        height: 150px !important;
+        margin: 3px;
+    }
+}
