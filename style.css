@@ -352,3 +352,46 @@ display: inline-block;
         margin: 3px;
     }
 }
+@media (max-width: 600px) {
+    body {
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h1 + p {
+        font-size: 19px;
+        color: white;
+        display: block;
+        visibility: visible;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        padding: 8px 4px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px 10px;
+        margin: 3px;
+    }
+
+    .hero {
+        padding: 30px 10px;
+    }
+
+    .about,
+    .portfolio,
+    .contact {
+        padding: 20px 10px;
+    }
+
+    .portfolio img {
+        width: 46% !important;
+        height: 190px !important;
+        margin: 3px;
+    }
+}
