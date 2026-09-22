@@ -402,8 +402,8 @@ h1 + p {
     visibility: visible !important;
 }
 .portfolio img {
-    width: 30% !important;
-    height: 220px !important;
+    width: 60% !important;
+    height: 200px !important;
     object-fit: cover;
     margin: 6px;
     border-radius: 12px;
