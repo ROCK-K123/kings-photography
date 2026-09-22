@@ -240,7 +240,7 @@ box-shadow: 0 3px 8px gray;
 .contact a[href^="mailto"] {
     background-color: #020083;
     color: white;
-
+}
 /* Footer */
 footer {
     margin-top: 40px;
