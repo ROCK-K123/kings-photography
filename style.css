@@ -1,0 +1,323 @@
+body {
+background-color: #f5f5f5;
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+p {
+    color: darkgreen;
+    font-size: 18px;
+}
+nav a {
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    text-decoration: none;
+}
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    margin: 5px;
+}
+h1 {
+font-size: 48px;
+}
+body {
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+}h2 {
+    color: darkblue;
+    font-size: 30px;
+}
+li {
+    font-size: 18px;
+    margin: 10px;
+}
+img {
+    border-radius: 15px;
+}
+img {
+    box-shadow: 0 4px 10px gray;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    padding: 20px;
+}.services {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px gray;
+    max-width: 500px;
+    margin: 20px auto;
+}
+.services {
+    list-style: none;
+}
+.services li {
+    font-weight: bold;
+    margin: 15px 0;
+}h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+a[href^="tel"] {
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}a[href^="https://wa.me"] {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+a:hover {
+    opacity: 0.7;
+}
+nav a:hover {
+    background-color: black;
+}
+nav {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.instagram {
+    display: inline-block;
+    background-color: #E1306C !important;
+    color: white !important;
+    padding: 12px 25px !important;
+    border-radius: 8px !important;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+.instagram:hover {
+    opacity: 0.7;
+}h1 + p {
+    font-size: 22px;
+    color: darkblue;
+    font-style: italic;
+    margin-bottom: 30px;
+.hero {
+background-color: #111111;
+padding: 40px 20px;
+border-radius: 15px;
+margin-bottom: 30px;
+}
+}.tiktok {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+.hero a {
+    margin: 5px;
+}.about {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 10px gray;
+}
+
+.about p {
+    color: black;
+    line-height: 1.6;
+}
+img {
+    transition: transform 0.3s;
+}
+img:hover {
+    transform: scale(1.03);
+}
+.portfolio {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 10px gray;
+}
+
+.portfolio img {
+width: 20% !important;
+height: 180px !important;
+margin: 6px;
+border-radius: 10px;
+object-fit: cover;
+}
+
+.portfolio img:hover {
+    transform: scale(1.05);
+}.portfolio img {
+    height: 180px;
+    object-fit: cover;
+}
+.portfolio h3 {
+    color: darkblue;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+a[href^="mailto"] {
+display: inline-block;
+background-color: darkblue;
+color: white;
+padding: 12px 25px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+margin: 5px;
+}
+.hero h1 {
+font-size: 48px;
+margin-bottom: 10px;
+}
+
+.hero p {
+font-size: 22px;
+}
+.portfolio {
+text-align: center;
+}
+
+.portfolio a {
+display: inline-block;
+}
+.portfolio img {
+margin: 4px;
+}
+nav {
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+a[href^="tel"],
+a[href^="https://wa.me"] {
+display: inline-block;
+padding: 12px 25px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+margin: 5px;
+}
+a[href^="https://wa.me"] {
+background-color: green;
+color: white;
+}
+a[href^="tel"] {
+background-color: darkblue;
+color: white;
+}
+a[href^="mailto"] {
+background-color: #D4AF37;
+color: white;
+}
+nav a {
+font-weight: bold;
+border-radius: 6px;
+}
+h1 {
+color: #D4AF37;
+text-align: center;
+}
+.hero h1 {
+border-bottom: 3px solid #D4AF37;
+padding-bottom: 10px;
+display: inline-block;
+}
+.hero p {
+color: white;
+}
+.hero h1 {
+text-shadow: 0 2px 5px black;
+}
+.instagram {
+box-shadow: 0 3px 8px gray;
+}
+.tiktok {
+box-shadow: 0 3px 8px gray;
+}
+.about h2 {
+font-size: 32px;
+margin-bottom: 20px;
+}
+.services li {
+color: darkblue;
+}
+.services {
+padding: 25px;
+}
+.services {
+max-width: 600px;
+}
+.portfolio h2 {
+font-size: 34px;
+color: #D4AF37;
+}
+.portfolio h3 {
+font-weight: bold;
+}
+.portfolio h3 {
+padding-top: 20px;
+}
+.portfolio p {
+color: #555;
+font-size: 16px;
+line-height: 1.5;
+}
+.portfolio img {
+box-shadow: 0 3px 8px gray;
+}
+.contact {
+background-color: white;
+padding: 30px;
+border-radius: 15px;
+margin: 30px auto;
+max-width: 700px;
+box-shadow: 0 4px 10px gray;
+}
+.contact h2 {
+color: #D4AF37;
+font-size: 34px;
+}
+.contact p {
+font-size: 18px;
+margin: 15px 0;
+}
+.contact a[href^="mailto"] {
+background-color: #D4AF37;
+color: white;
+padding: 12px 25px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+display: inline-block;
+}
